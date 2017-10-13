@@ -3,9 +3,7 @@ pipeline {
     stages{
 
     stage('Test On Linux') {
-                        agent {
-                            label "mac"
-                        }
+
                         steps {
                             sh "mvn test"
                         }
