@@ -1,5 +1,7 @@
 pipeline {
     agent none
+    stages{
+
     stage('Test On Linux') {
                         agent {
                             label "mac"
@@ -14,4 +16,5 @@ pipeline {
                             }
                         }
       }
+        }
 }
