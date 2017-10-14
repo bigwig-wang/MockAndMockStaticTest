@@ -24,7 +24,7 @@ public class CallCallsNormalMethodObjTest {
 
         String result = classCallsNormalMethodObj.excute();
 
-        assertEquals("34",result);
+        assertEquals("344",result);
 
         Mockito.verify(normal).firstNormalMethod();
         Mockito.verify(normal).secondNOrmalMethod();
